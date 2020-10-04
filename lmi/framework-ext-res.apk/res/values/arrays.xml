@@ -1343,6 +1343,7 @@
         <item>da_DK</item>
         <item>de_DE</item>
         <item>et_EE</item>
+        <item>en_AU</item>
         <item>en_IN</item>
         <item>en_GB</item>
         <item>en_US</item>
@@ -1673,4 +1674,9 @@
         <item>5</item>
     </integer-array>
     <array name="vibration_virtual_key_up" />
+    <string-array name="white_list_pass_through_app">
+        <item>com.android.fileexplorer</item>
+        <item>com.miui.huanji</item>
+        <item>com.miui.backup</item>
+    </string-array>
 </resources>

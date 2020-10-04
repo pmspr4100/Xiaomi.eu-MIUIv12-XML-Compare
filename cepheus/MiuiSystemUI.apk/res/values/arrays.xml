@@ -582,6 +582,7 @@
         <item>com.miui.bugreport</item>
         <item>com.miui.miservice</item>
         <item>com.miui.accessibility</item>
+        <item>com.miui.systemAdSolution</item>
     </string-array>
     <string-array name="config_canSendSubstituteNotificationPackages">
         <item>com.xiaomi.xmsf</item>
@@ -684,6 +685,9 @@
         <item>com.tencent.mobileqq</item>
         <item>com.tencent.mm</item>
         <item>com.miui.smarttravel</item>
+    </string-array>
+    <string-array name="config_quickSettingsAutoAdd">
+        <item>accessibility_display_inversion_enabled:inversion</item>
     </string-array>
     <string-array name="data_activity_sim1">
         <item>array/telephony_data_activity_unknown_sim1</item>
@@ -1533,6 +1537,7 @@
         <item>@drawable/stat_sys_signal_4_3g_fully</item>
         <item>@drawable/stat_sys_signal_4_4g_fully</item>
     </array>
+    <array name="status_bar_show_spn_by_gid_when_airplane" />
     <string-array name="system_alert_window_notification_whitelist">
         <item>com.miui.notes</item>
         <item>com.android.thememanager</item>
