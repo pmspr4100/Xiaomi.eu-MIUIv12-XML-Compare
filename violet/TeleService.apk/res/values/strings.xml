@@ -490,7 +490,7 @@ Selection"</string>
     <string name="call_description_recording">Recording…</string>
     <string name="call_forward_option">Call forwarding</string>
     <string name="call_forwarding_number_hint">Forward calls to</string>
-    <string name="call_forwarding_settings">Call forwarding settings</string>
+    <string name="call_forwarding_settings">Call forwarding</string>
     <string name="call_forwarding_settings_with_label">Call forwarding settings (%s)</string>
     <string name="call_record_add_numbers">Add numbers</string>
     <string name="call_record_auto_always">All numbers</string>
@@ -992,6 +992,10 @@ Selection"</string>
     <string name="fiveg_icon_type1">Nr Icon Type :</string>
     <string name="fiveg_infos">5G infos</string>
     <string name="fiveg_network_config_type1">Network Config Type :</string>
+    <string name="fiveg_network_mode_default">Auto</string>
+    <string name="fiveg_network_mode_nsa">NSA</string>
+    <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
+    <string name="fiveg_network_mode_title">Select 5G network mode</string>
     <string name="fiveg_network_title">5G networks</string>
     <string name="fiveg_plmn_info_list1">PLMN info list :</string>
     <string name="fiveg_restrict_dcnr1">Restrict DCNR :</string>
@@ -1002,6 +1006,7 @@ Selection"</string>
     <string name="fiveg_sa_switch_title_slot0">SIM 1 SA mode</string>
     <string name="fiveg_sa_switch_title_slot1">SIM 2 SA mode</string>
     <string name="fiveg_sa_switch_warning_toast">Please reboot the phone to take effect.</string>
+    <string name="fiveg_sa_vice_switch_title">SA on secondary SIM</string>
     <string name="fiveg_signal_strength1">5G Signal strength :</string>
     <string name="fiveg_switch_status1">5G switch status:</string>
     <string name="fiveg_switch_title">Use 5G networks</string>
@@ -1645,6 +1650,7 @@ Your phone will be locked automatically after another failed attempt"</string>
     <string name="preference_auto_ip_summary_disable">Off</string>
     <string name="preference_category_ringtone">Ringtone &amp; Vibrate</string>
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
+    <string name="preference_countrycode_title">Country code</string>
     <string name="preference_dial_pad_touch_tone_default">Default</string>
     <string name="preference_dial_pad_touch_tone_off">Off</string>
     <string name="preference_dial_pad_touch_tone_piano">Piano keys</string>
@@ -1697,6 +1703,7 @@ Your phone will be locked automatically after another failed attempt"</string>
     <string name="preferred_network_type_pref_entries_4g_preferred_lm_cr">LTE/WCDMA/GSM auto</string>
     <string name="preferred_network_type_pref_entries_4g_preferred_mx_at">4G/3G/2G (4G preferred)</string>
     <string name="preferred_network_type_pref_entries_5g_preferred">Prefer 5G</string>
+    <string name="preferred_network_type_pref_entries_5g_preferred_lm_cr">5G/LTE/WCDMA/GSM auto</string>
     <string name="preferred_network_type_pref_entries_5g_preferred_mx_at">5G/4G/3G/2G (5G/4G preferred)</string>
     <string name="preferred_network_type_pref_entries_auto">Automatic</string>
     <string name="preferred_network_type_pref_entries_global">Global</string>

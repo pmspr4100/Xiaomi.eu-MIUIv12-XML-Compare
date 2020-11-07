@@ -546,7 +546,6 @@ Selection"</string>
     <string name="bt_hci_snoop_log">Enable Bluetooth HCI snoop log</string>
     <string name="bt_hci_snoop_log_summary">Capture Bluetooth packets (Toggle Bluetooth after changing this setting).</string>
     <string name="bt_is_off">Bluetooth is off</string>
-    <string name="bubble_accessibility_action_add_back">Add back to stack</string>
     <string name="bubble_accessibility_action_move">Move</string>
     <string name="bubble_accessibility_action_move_bottom_left">Move bottom left</string>
     <string name="bubble_accessibility_action_move_bottom_right">Move bottom right</string>
@@ -555,18 +554,9 @@ Selection"</string>
     <string name="bubble_content_description_single">%1$s from %2$s</string>
     <string name="bubble_content_description_stack">%1$s from %2$s and %3$d more</string>
     <string name="bubble_dismiss_text">Dismiss</string>
-    <string name="bubble_overflow_button_content_description">Overflow</string>
-    <string name="bubble_overflow_empty_subtitle">Recent bubbles and dismissed bubbles will appear here</string>
-    <string name="bubble_overflow_empty_title">No recent bubbles</string>
     <string name="bubbles_deep_link_button_description">Open %1$s</string>
-    <string name="bubbles_dont_bubble_conversation">Don’t bubble conversation</string>
     <string name="bubbles_prompt">Allow bubbles from %1$s?</string>
     <string name="bubbles_settings_button_description">Settings for %1$s bubbles</string>
-    <string name="bubbles_user_education_description">New conversations appear as floating icons, or bubbles. Tap to open bubble. Drag to move it.</string>
-    <string name="bubbles_user_education_got_it">Got it</string>
-    <string name="bubbles_user_education_manage">Tap Manage to turn off bubbles from this app</string>
-    <string name="bubbles_user_education_manage_title">Control bubbles anytime</string>
-    <string name="bubbles_user_education_title">Chat using bubbles</string>
     <string name="bugreport_in_power">Bug report shortcut</string>
     <string name="bugreport_in_power_summary">Show a button in the power menu for taking a bug report</string>
     <string name="button_convert_fbe">Wipe and convert…</string>
@@ -1246,11 +1236,15 @@ a scrolling screenshot"</string>
     <string name="miui_ringer_total_description">Silence sounds and turn off vibration for all items except the alarm clock</string>
     <string name="miui_screen_rotation_freeze_message">Locked screen orientation in landscape mode</string>
     <string name="miui_toast_zen_dnd_to_off">DND is off now. Sounds and vibration are restored to normal.</string>
+    <string name="miui_toast_zen_dnd_to_off_version_R">DND is off. Notification sounds and vibration are back on.</string>
     <string name="miui_toast_zen_standard_to_off">Silent mode is off now. Ringtones are restored to normal.</string>
     <string name="miui_toast_zen_standard_to_off_when_shield_media">Silent mode is off now. Ringtones, as well as notification and media sounds, will be played.</string>
+    <string name="miui_toast_zen_standard_to_off_when_shield_media_version_R">Silent mode is off. Notifications, media sounds, and vibration are back on.</string>
     <string name="miui_toast_zen_to_dnd">Switched to DND. Sounds are silenced and vibration is off now.</string>
+    <string name="miui_toast_zen_to_dnd_version_R">DND is on. Notifications will be silenced and vibration turned off.</string>
     <string name="miui_toast_zen_to_standard">Switched to Silent mode. Ringtones for calls and notifications are silenced now.</string>
     <string name="miui_toast_zen_to_standard_when_shield_media">Switched to Silent mode. Ringtones, as well as notification and media sounds, are silenced now.</string>
+    <string name="miui_toast_zen_to_standard_when_shield_media_version_R">Silent mode is on. Notifications and media will be silenced and vibration turned off.</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Refreshing…</string>
@@ -1347,6 +1341,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="mr_dialog_transferable_header">Play on a group</string>
     <string name="mr_system_route_name">System</string>
     <string name="mr_user_route_category_name">Devices</string>
+    <string name="msim_set_sub_not_supported_phone_in_call">"Can't set during call"</string>
     <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
     <string name="mtrl_picker_cancel">Cancel</string>
     <string name="mtrl_picker_confirm">Save</string>
@@ -1377,7 +1372,6 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="notification_aggregate_text">Mark notifications from %1$s as unimportant</string>
     <string name="notification_all_categories">All categories</string>
     <string name="notification_app_settings">Customize: %1$s</string>
-    <string name="notification_bubble_title">Bubble</string>
     <string name="notification_channel_alerts">Alerts</string>
     <string name="notification_channel_battery">Battery</string>
     <string name="notification_channel_controls_closed_accessibility">Notification controls for %1$s closed</string>
@@ -1393,8 +1387,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="notification_channel_tv_pip">Picture-in-Picture</string>
     <string name="notification_channel_usb">USB</string>
     <string name="notification_channels_list_desc_2">%1$s, %2$s</string>
-    <string name="notification_conversation_bubble">Show bubble</string>
-    <string name="notification_conversation_unbubble">Remove bubbles</string>
+    <string name="notification_control_center">Notifications &amp; Control center</string>
     <string name="notification_default_channel_desc">"This app doesn't have notification categories"</string>
     <string name="notification_done">Done</string>
     <string name="notification_group_collapse_button_text">Fold</string>
@@ -1495,7 +1488,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="pointer_location">Pointer location</string>
     <string name="pointer_location_summary">Screen overlay showing current touch data</string>
     <string name="power_charging">%1$s - %2$s</string>
-    <string name="power_charging_duration">%1$s - %2$s until charged</string>
+    <string name="power_charging_duration">%1$s - %2$s until fully charged</string>
     <string name="power_discharge_by">Should last until about %1$s (%2$s)</string>
     <string name="power_discharge_by_enhanced">Should last until about %1$s based on your usage (%2$s)</string>
     <string name="power_discharge_by_only">Should last until about %1$s</string>
@@ -1532,7 +1525,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
 
 "<b>Level 0</b>" 
 - Block all notifications from the app "</string>
-    <string name="power_remaining_charging_duration_only">%1$s left until charged</string>
+    <string name="power_remaining_charging_duration_only">%1$s left until fully charged</string>
     <string name="power_remaining_duration_only">About %1$s left</string>
     <string name="power_remaining_duration_only_enhanced">About %1$s left based on your usage</string>
     <string name="power_remaining_duration_only_short">%1$s</string>
@@ -1686,7 +1679,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="quick_settings_rssi_emergency_only">Emergency calls only</string>
     <string name="quick_settings_rssi_label">RSSI</string>
     <string name="quick_settings_screenbutton_label">Buttons</string>
-    <string name="quick_settings_screenlock_label">Lock screen</string>
+    <string name="quick_settings_screenlock_label">Lock</string>
     <string name="quick_settings_screenshot_label">Screenshot</string>
     <string name="quick_settings_secondary_label_until">Until %s</string>
     <string name="quick_settings_settings_label">Settings</string>
@@ -1694,10 +1687,10 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="quick_settings_sync_label">Sync</string>
     <string name="quick_settings_tethering_label">Tethering</string>
     <string name="quick_settings_tiles">default</string>
-    <string name="quick_settings_tiles_default">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,night,quietmode,batterysaver,extremebatterysaver,custom(com.miui.securitycenter/com.miui.superpower.notification.SuperPowerTileService),custom(com.milink.service/com.milink.ui.service.MiLinkTileService),custom(com.miui.mishare.connectivity/.tile.MiShareTileService),powermode,custom(com.miui.screenrecorder/.service.QuickService),vibrate,hotspot,sync,screenbutton,wirelesspower,nfc,edit</string>
+    <string name="quick_settings_tiles_default">vowifi1,vowifi2,cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,night,quietmode,batterysaver,extremebatterysaver,custom(com.miui.securitycenter/com.miui.superpower.notification.SuperPowerTileService),custom(com.milink.service/com.milink.ui.service.MiLinkTileService),custom(com.miui.mishare.connectivity/.tile.MiShareTileService),powermode,custom(com.miui.screenrecorder/.service.QuickService),vibrate,hotspot,sync,screenbutton,wirelesspower,nfc,edit</string>
     <string name="quick_settings_tiles_old_mode">cell,wifi,bt,flashlight,batterysaver,screenshot,edit</string>
     <string name="quick_settings_tiles_retail_mode">cell,batterysaver,powermode,flashlight,rotation,location</string>
-    <string name="quick_settings_tiles_stock">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,night,quietmode,batterysaver,extremebatterysaver,powermode,vibrate,hotspot,sync,screenbutton,wirelesspower,nfc,edit,drivemode,workmode</string>
+    <string name="quick_settings_tiles_stock">vowifi1,vowifi2,cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,night,quietmode,batterysaver,extremebatterysaver,powermode,vibrate,hotspot,sync,screenbutton,wirelesspower,nfc,edit,drivemode,workmode</string>
     <string name="quick_settings_tiles_super_save">cell,wifi,bt,gps,vibrate</string>
     <string name="quick_settings_time_label">Time</string>
     <string name="quick_settings_toast_drag_to_enable_custom_tile">To add an item, press and hold it, and then drag it to the upper part of the panel.</string>
@@ -1705,6 +1698,9 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="quick_settings_user_new_user">New user</string>
     <string name="quick_settings_user_title">User</string>
     <string name="quick_settings_vibrate_label">Vibrate</string>
+    <string name="quick_settings_vowifi_label">WLAN Calling</string>
+    <string name="quick_settings_vowifi_sim1_label">WLAN Calling SIM1</string>
+    <string name="quick_settings_vowifi_sim2_label">WLAN Calling SIM2</string>
     <string name="quick_settings_wifi_detail_dual_wifi_accelerated">Boosting speed</string>
     <string name="quick_settings_wifi_detail_dual_wifi_switching_cancel">Cancel</string>
     <string name="quick_settings_wifi_detail_dual_wifi_switching_confirm">Confirm</string>
@@ -2002,6 +1998,7 @@ Your phone may get too hot if you:
     <string name="torch_closed">Torch off</string>
     <string name="torch_high_temperature_warning">"Your device is overheated. Can't use torch now."</string>
     <string name="torch_opened">Torch on</string>
+    <string name="touch_filtered_warning">"Settings can't verify your response because an app is obscuring a permission request."</string>
     <string name="track_frame_time">Profile HWUI rendering</string>
     <string name="transition_animation_scale_title">Transition animation scale</string>
     <string name="tts_default_lang_summary">Sets the language-specific voice for the spoken text</string>
@@ -2208,6 +2205,16 @@ Any user can update apps for all other users."</string>
     <string name="wifi_connected_no_internet">No internet</string>
     <string name="wifi_coverage_extend">Turn on WLAN coverage extension</string>
     <string name="wifi_coverage_extend_summary">Extend WLAN coverage using hotspot</string>
+    <string name="wifi_debugging_allow">Allow</string>
+    <string name="wifi_debugging_always">Always allow on this network</string>
+    <string name="wifi_debugging_message">"Network name (SSID)
+%1$s
+
+WLAN address (BSSID)
+%2$s"</string>
+    <string name="wifi_debugging_secondary_user_message">"The user currently signed in to this device can't turn on wireless debugging. To use this feature, switch to the primary user."</string>
+    <string name="wifi_debugging_secondary_user_title">"Wireless debugging isn't allowed"</string>
+    <string name="wifi_debugging_title">Allow wireless debugging on this network?</string>
     <string name="wifi_disabled_by_recommendation_provider">Not connected due to low quality network</string>
     <string name="wifi_disabled_generic">Disabled</string>
     <string name="wifi_disabled_network_failure">"Couldn't configure IP"</string>
@@ -2283,6 +2290,8 @@ Any user can update apps for all other users."</string>
     <string name="wifi_status_no_internet">No internet</string>
     <string name="wifi_status_sign_in_required">Sign in required</string>
     <string name="wifi_unmetered_label">Unmetered</string>
+    <string name="wifi_unsaved_network_linking">SSID Bridging ‑ Auto Connection</string>
+    <string name="wifi_unsaved_network_linking_summary">Enable auto connection attempts to a new WPA/WPA2‑PSK 5GHz SSID with current connected WPA/WPA2‑PSK 2GHz SSID credentials on SSID and BSSID partial match</string>
     <string name="wifi_verbose_logging">Turn on WLAN verbose logging</string>
     <string name="wifi_verbose_logging_summary">Increase WLAN logging level (show per SSID RSSI in WLAN picker)</string>
     <string name="wifi_wapi_as_certificate">AS certificate</string>
@@ -2294,6 +2303,8 @@ Make sure your certificates are valid."</string>
 Looks like credential storage isn't enabled."</string>
     <string name="wifi_wapi_psk_type">Password type</string>
     <string name="wifi_wapi_user_certificate">User certificate</string>
+    <string name="wifi_whitelist_roaming">SSID Bridging ‑ Fast Handover</string>
+    <string name="wifi_whitelist_roaming_summary">Enable roaming between different SSID WPA/WPA2‑PSK APs with same gateway MAC address</string>
     <string name="window_animation_scale_title">Window animation scale</string>
     <string name="wireless_change_to_ac_charging">Switched to wired charging</string>
     <string name="wireless_charge_current">Charging</string>
